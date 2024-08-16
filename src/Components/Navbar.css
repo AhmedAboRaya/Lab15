@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+  }
+  
+  nav img {
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav li {
+    color: white;
+    cursor: pointer;
+  }
+  
+  nav li:hover {
+    background-color: #555;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .profile {
+    background-color: lightblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
